@@ -3,7 +3,7 @@ using namespace std;
 
 
 int value(char c) {
-    if(c == '^')
+    if(c == '^'
         return 3;
     else if(c == '/' || c=='*')
         return 2;
